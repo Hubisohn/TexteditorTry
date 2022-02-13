@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane maxHeight="-Infinity" fx:controller="com.example.texteditortry.CreateFileObj" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="207.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <bottom>
+      <Button mnemonicParsing="false" onAction="#closeWindow" prefHeight="12.0" prefWidth="31.0" text="Ok" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="10.0" />
+         </BorderPane.margin>
+      </Button>
+   </bottom>
+   <center>
+      <Label text="Diese Datei exestiert bereits" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
